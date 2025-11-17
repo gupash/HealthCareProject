@@ -8,7 +8,7 @@ and loads it into a Delta Lake table for downstream analytics.
 ### Key Features
 
 - **Streaming ingestion**: Monitors a directory for new CSV files and processes them incrementally
-- **Data validation**: Validates input data against a defined schema using Pandera
+- **Data validation**: Validates input data based on conditions defined in the transformation step, rows which don't match the criteria are pushed to quarantine
 - **Data transformation**: Standardizes formats (phone numbers, dates, gender codes, zip code)
 - **Deduplication & merge**: Implements SCD Type 1 logic to keep the most recent member information
 - **Audit logging**: Tracks ingestion statistics timestamp, (valid/invalid records) for each file

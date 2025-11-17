@@ -5,7 +5,7 @@ The pipeline follows a multi-stage medallion architecture (Bronze/Landing -> Sil
 ## Architecture Diagram
 ```mermaid
 graph TD
-    A[Landing Zone: `input/raw/`] -- "1. File Arrival" --> B(Validation Engine);
+    A[Landing Zone: input/raw/] -- "1. File Arrival" --> B(Validation Engine);
     B -- "2a. Valid Records" --> C{Transformation & Enrichment};
     B -- "2b. Invalid Records" --> D[Quarantine Zone: output/quarantine/];
     C -- "3. Merge (SCD1)" --> E[Serving Layer: output/silver/];
@@ -16,11 +16,32 @@ graph TD
 ## Data Flow Stages
 
 1. **Landing (Bronze):** Raw, immutable CSV files from different clients land in the `input/raw/` directory. Files follow a `{client_id}_{creation_date}[Optional: _1 or _2 suffix].csv` naming convention.
-2. **Validation:** A streaming process monitors the landing zone. Upon detecting a new file, it validates each record against a predefined Pandera schema.
-3. **Quarantine:** Records failing validation are written to a `quarantine` Delta table. This isolates bad data for analysis without halting the pipeline.
-4. **Transformation:** Valid records undergo standardization (e.g., phone numbers, dates) and enrichment.
+2. **Transformation:** A streaming process monitors the landing zone. Upon detecting a new file, the streaming process picks up the file and performs standardization (e.g., phone numbers, dates) and enrichment.
+3. **Validation:** The records that match the validation criteria in spark transforms are forwarded to the silver table layer.
+4. **Quarantine:** Records failing validation are written to a `quarantine` Delta table. This isolates bad data for analysis without halting the pipeline.
 5. **Audit:** Metadata for each processing job (file name, record counts, timestamps) is logged to a central audit Delta table.
 6. **Serving (Silver):** Cleaned, transformed data is merged into the primary `silver` Delta table using an SCD Type 1 (upsert) pattern on the `member_id`. This ensures the table always contains the most recent member information and makes the pipeline idempotent.
+
+## Design Tradeoffs
+
+### Input Processing and Idempotency
+
+Two approaches were considered for handling incremental file processing and ensuring idempotency.
+
+*   **Approach A: Custom Checksum and File Tracking**
+    *   **Method:** This approach involves generating a checksum for each incoming file and building custom logic to track already-processed files, as demonstrated in `ingest.py`.
+    *   **Pros:** Can validate file integrity if a checksum is provided by the source system.
+    *   **Cons:**
+        *   **Performance Bottleneck:** Generating a true file checksum requires reading the entire file sequentially on the driver, which severely limits parallelism and is an anti-pattern in Spark.
+        *   **Redundant Idempotency:** The `MERGE` operation at the sink already handles record-level idempotency, making file-level de-duplication via checksums unnecessary.
+        *   **Limited Use Case:** A checksum is only useful for validation if the source system provides one to compare against.
+
+*   **Approach B (Chosen): Spark Structured Streaming / Autoloader**
+    *   **Method:** Use Spark's built-in Autoloader to monitor the input directory. Autoloader automatically and efficiently processes new files, managing state to provide exactly-once processing guarantees.
+    *   **Pros:**
+        *   **Highly Scalable:** Leverages Spark's distributed engine for both file discovery and data processing.
+        *   **Simplified Logic:** Offloads the complexity of state management and idempotency to the robust, battle-tested Spark framework.
+        *   **Efficient:** Avoids the performance overhead of sequential file operations on the driver.
 
 ## Scaling from 1 to 100 Clients
 

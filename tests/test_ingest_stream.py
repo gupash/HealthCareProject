@@ -1,9 +1,9 @@
 import pytest
 from pyspark.sql import SparkSession
+from sample_data import source_data
+from schema import source_schema
 
-from src.ingest_stream import generate_merge_cond, parse_df
-from tests.sample_data import source_data
-from tests.schema import source_schema
+from healthcare.ingest_stream import generate_merge_cond, parse_df
 
 
 @pytest.fixture(scope="session")
@@ -27,7 +27,7 @@ def test_parse_df(spark):
     source_df = spark.createDataFrame(data=source_data, schema=source_schema)
 
     # Apply the transformation
-    result_df = parse_df(source_df)
+    result_df, _ = parse_df(source_df)
 
     # Collect results and check
     result_data = result_df.drop("ingestion_time").collect()

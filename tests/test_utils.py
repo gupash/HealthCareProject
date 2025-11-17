@@ -1,7 +1,7 @@
 import os
 import tempfile
 
-from src.utils import get_file_checksum
+from healthcare.utils import get_file_checksum
 
 
 def test_get_file_checksum():

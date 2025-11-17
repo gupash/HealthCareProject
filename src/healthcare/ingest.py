@@ -6,8 +6,7 @@ from delta import DeltaTable
 from pyspark.sql import Window
 from pyspark.sql.functions import *
 
-from src.schema import input_schema
-from src.utils import (
+from healthcare.utils import (
     audit_log,
     get_file_checksum,
     get_spark_session,
@@ -34,6 +33,11 @@ if DeltaTable.isDeltaTable(spark, audit_log):
         )
         files_to_process = {row[0]: row[1] for row in filtered_df.select("file_name", "checksum").collect()}
         print(f"Files To Process: {files_to_process}")
+
+input_schema = (
+    "member_id string, first_name string, last_name string, dob string, gender string, phone string, "
+    "email string, zip5 string, plan_id string"
+)
 
 df = spark.read.csv(
     header=True,

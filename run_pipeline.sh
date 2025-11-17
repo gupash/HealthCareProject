@@ -6,7 +6,13 @@ if [ -z "$VIRTUAL_ENV" ]; then
     exit 1
 fi
 
-echo "--- All checks passed. Running the ingest stream ---"
-python src/ingest_stream.py
+# Ensure we are at project root (directory containing src/)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
 
+# Add src to PYTHONPATH for this invocation
+export PYTHONPATH="$PWD/src:${PYTHONPATH:-}"
+
+echo "--- Running ingest stream ---"
+python -m healthcare.ingest_stream
 echo "--- Pipeline execution finished successfully ---"

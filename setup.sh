@@ -20,8 +20,5 @@ echo "--- Installing dependencies ---"
 pip install --upgrade pip
 pip install -r requirements.txt
 
-echo "--- Installing pre-commit hooks (optional) ---"
-pre-commit install
-
 echo "--- Setup complete! ---"
 echo "To activate the virtual environment, run: source venv/bin/activate"

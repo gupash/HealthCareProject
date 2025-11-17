@@ -1,12 +1,15 @@
 import hashlib
 import os
+from pathlib import Path
 
 from pyspark.sql import SparkSession
 
-raw_loc = "../input/raw/"
-silver_loc = "../output/silver/health_partner_data"
-stream_checkpoint_loc = "../output/checkpoint/data/"
-audit_log = "../output/checkpoint/audit/"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent  # points to src/
+raw_loc = f"{BASE_DIR}/input/raw/"
+silver_loc = f"{BASE_DIR}/output/silver/health_partner_data"
+quarantine_loc = f"{BASE_DIR}/output/quarantine/"
+stream_checkpoint_loc = f"{BASE_DIR}/output/checkpoint/data/"
+audit_log = f"{BASE_DIR}/output/checkpoint/audit/"
 query_name = "health_care_ingest_stream"
 
 

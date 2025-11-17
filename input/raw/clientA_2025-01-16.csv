@@ -151,5 +151,5 @@ member_id,first_name,last_name,dob,gender,phone,email,zip5,plan_id
 111305,John,Johnson,23 Dec 1993,MALE,555-293-4067,john@sample_email.com,55977,PLN100
 123456,Jane,,1990/14/05,F,555-999-1234,jane@sample_email.com, ,PLN200
 BADROW,THIS,ROW,HAS,TOO,MANY,this@sample_email.com,AND,EXTRA,STUFF,XYZ
-,NoID,User,02/30/1995,F,,noid@sample_email.com,94086,PLN300
+,NoID,User,02/28/1995,F,,noid@sample_email.com,94086,PLN300
 123456,Jane,,1990/14/05,F,555-999-1234,jane@sample_email.com, ,PLN200
