@@ -1,0 +1,6 @@
+delta-spark==4.0.0
+pandera==0.26.1
+pyspark==4.0.1
+ruff==0.14.4
+pytest
+mypy

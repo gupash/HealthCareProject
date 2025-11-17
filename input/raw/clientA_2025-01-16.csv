@@ -1,0 +1,155 @@
+member_id,first_name,last_name,dob,gender,phone,email,zip5,plan_id
+337168,Maria,Brown,09 Apr 2002,f,5553861659,maria@sample_email.com,08814,PLN100
+731125,Sara,Garcia,2003-10-15,MALE,(555) 292-7301,sara@sample_email.com,88989,
+463250,Jane,Johnson,01/24/2007,F,5551407367,jane@sample_email.com,95639,PLN100
+714643,Priya,Das,2004-02-18,F,555-674-4660,priya@sample_email.com,61601,
+244623,Linda,Lee,06/24/2009,male,555-856-5065,linda@sample_email.com,59829,
+847621,Jane,Kim,2002-07-11,f,(555) 903-4121,jane@sample_email.com,28917,PLN200
+180539,John,Brown,05/18/1975,MALE,5551629130,john@sample_email.com,56304,
+385597,Sara,Davis,10/16/2004,male,5556343523,sara@sample_email.com,22396,
+350475,Priya,,15 Jan 1991,f,(555) 382-5181,priya@sample_email.com,85405,PLN100
+149652,Nina,Kim,10/20/1996,F,5556647341,nina@sample_email.com,87384,PLN100
+918909,,Khan,12 Apr 1980,MALE,(555) 780-3031,unknown@sample_email.com,14885,PLN300
+968483,Sara,Johnson,2000-01-02,MALE,555-610-3394,sara@sample_email.com,73722,
+512933,Jane,Das,17 Dec 1980,M,(555) 424-4487,jane@sample_email.com,14782,PLN300
+551934,Carlos,Patel,1981-06-29,MALE,555-143-3216,carlos@sample_email.com, 17672 ,PLN300
+734618,John,Wang,1992-10-08,MALE,555-789-2692,john@sample_email.com,96752,
+310744,Jane,Brown,27 May 2040,Female,555-877-8741,jane@sample_email.com,95370,
+432029,,Khan,15 Apr 1984,MALE,(555) 206-9598,unknown@sample_email.com,94336,PLN100
+596321,Priya,Lee,1974-03-16,MALE,5555363352,priya@sample_email.com,33724,PLN200
+562071,Nina,Singh,10 Aug 1991,F,5555778376,nina@sample_email.com,46060,PLN200
+282857,Omar,Kim,1993-07-02,male,555-296-3201,omar@sample_email.com,63929,
+903129,Wei,Johnson,2005-02-25,F,(555) 918-1324,wei@sample_email.com,61896,PLN100
+910839,Nina,Lopez,06/25/2004,Female,(555) 173-4898,nina@sample_email.com,64509,
+109411,John,Smith,10 Mar 2040,f,(555) 608-2182,john@sample_email.com,06957,PLN100
+441800,Omar,Kim,1977-06-23,F,555-291-5410,omar@sample_email.com,32979,PLN200
+621221,Carlos,Patel,2046-07-04,F,(555) 380-7062,carlos@sample_email.com,26179,
+861254,Jane,Lopez,07/26/2030,M,5559769474,jane@sample_email.com,40259,PLN200
+,John,Wang,08 Jun 2014,M,(555) 812-2457,john@sample_email.com,56807,
+931654,Ravi,Brown,08 Mar 1984,MALE,(555) 471-7490,ravi@sample_email.com,79633,
+725051,Omar,Brown,2030-07-14,f,555-561-1664,omar@sample_email.com, 29583 ,PLN300
+920812,Nina,Das,07/28/1972,F,(555) 782-5075,nina@sample_email.com,72246,PLN300
+716708,Alex,Lopez,03 Feb 2002,M,555-799-6013,alex@sample_email.com,10728,PLN100
+890600,Ravi,Lopez,11 Apr 2007,male,555-801-1747,ravi@sample_email.com,22492,PLN200
+609006,Omar,Wang,1973-07-10,M,(555) 988-5022,omar@sample_email.com,47912,
+909213,Chris,Lopez,03 Jul 2005,F,555-379-8767,chris@sample_email.com, 81735 ,PLN200
+273862,Priya,Smith,09 Apr 2003,Female,555-726-6602,priya@sample_email.com,55270,PLN100
+503714,Priya,Davis,29 Jan 2030,Female,5559772167,priya@sample_email.com,03134,
+130231,John,,30 Jun 2032,Female,(555) 945-5421,john@sample_email.com,17151,PLN200
+214397,Ravi,Singh,01 Apr 2020,f,555-862-8546,ravi@sample_email.com,96907,
+294653,John,Khan,11/13/2008,male,555-490-4053,john@sample_email.com,70522,PLN100
+344644,,Lee,18 Jan 1987,male,5554046515,unknown@sample_email.com,77636,PLN300
+254573,Sara,Brown,02 Feb 2016,MALE,(555) 188-4390,sara@sample_email.com,96482,PLN200
+201977,Jane,Johnson,2008-11-06,MALE,5559585727,jane@sample_email.com,33366,PLN200
+834887,Sara,Khan,2009-07-10,male,5555555323,sara@sample_email.com,70968,PLN100
+594792,John,Singh,04 May 2034,f,5551952683,john@sample_email.com,25820,PLN300
+382382,Linda,Johnson,2041-08-31,male,555-999-1558,linda@sample_email.com,81675,
+745073,Sara,Garcia,02 May 2040,F,(555) 344-2071,sara@sample_email.com,86986,
+"",Priya,Wang,12 May 1951,MALE,5555074042,priya@sample_email.com, 95395 ,PLN300
+599167,John,Kim,1987-05-10,Female,555-943-3789,john@sample_email.com,28377,PLN300
+831676,Jane,Lee,1983-06-26,f,(555) 485-3324,jane@sample_email.com,30810,
+682794,,Lopez,02/24/2035,Female,555-640-1419,unknown@sample_email.com,51214,
+246317,Chris,Wang,09/06/2031,male,(555) 226-6256,chris@sample_email.com, 75885 ,
+413214,Sara,Patel,2000-04-16,Female,555-316-8927,sara@sample_email.com,55473,
+924886,Alex,Garcia,06/25/2000,M,(555) 341-6711,alex@sample_email.com,29584,PLN200
+517258,Maria,Kim,04 Jan 1983,MALE,(555) 145-7310,maria@sample_email.com,67975,PLN300
+702349,Omar,Khan,11/05/1966,Female,(555) 984-5800,omar@sample_email.com,78086,
+647040,Carlos,Lopez,03/23/1979,MALE,555-722-4524,carlos@sample_email.com, 87800 ,
+795689,Tom,Lee,2041-01-14,Female,(555) 499-4992,tom@sample_email.com,02648,PLN300
+746859,Jane,Das,12/04/1992,MALE,555-541-8494,jane@sample_email.com, 38404 ,PLN100
+357720,,Johnson,1982-06-06,f,(555) 659-5060,unknown@sample_email.com,03170,
+380053,John,Davis,05/24/2024,f,(555) 392-4132,john@sample_email.com,21450,PLN100
+479407,Priya,Kim,1978-08-20,f,555-341-8322,priya@sample_email.com,43406,
+801607,Chris,Garcia,1997-05-25,Female,5558716820,chris@sample_email.com, 79939 ,PLN300
+510633,Ravi,Kim,17 Dec 1994,male,5557117046,ravi@sample_email.com,39076,
+749092,Tom,Singh,03/06/2018,M,555-117-4401,tom@sample_email.com,75394,PLN300
+573283,Omar,Davis,14 Feb 2018,Female,(555) 196-1870,omar@sample_email.com,01973,
+277347,Alex,Wang,01/02/1955,F,5559116424,alex@sample_email.com,58400,PLN100
+373777,John,Wang,1985-07-28,Female,(555) 265-5686,john@sample_email.com,24630,PLN100
+901655,Wei,Wang,20 May 2023,Female,555-985-6327,wei@sample_email.com,59050,PLN100
+464129,Maria,Singh,26 Feb 2008,MALE,(555) 614-4657,maria@sample_email.com,29933,PLN300
+286913,Nina,Davis,05 May 1979,male,(555) 822-9123,nina@sample_email.com,41253,PLN100
+802986,Sara,Lee,08/27/2012,M,555-862-4490,sara@sample_email.com, 51943 ,
+975138,Chris,Wang,04/11/2047,M,5551254220,chris@sample_email.com,37165,
+896188,John,Davis,2043-08-28,male,555-595-2604,john@sample_email.com,84282,PLN300
+107131,Sara,Das,04/04/1974,MALE,555-198-5799,sara@sample_email.com,35348,
+998974,Maria,Lee,08 Nov 1974,f,5554809879,maria@sample_email.com,09965,PLN100
+457319,Jane,Khan,19 Sep 1993,M,555-575-8625,jane@sample_email.com,12188,PLN200
+961372,,Singh,19 Sep 1971,f,5558387668,unknown@sample_email.com,39914,
+809859,,Das,01/08/2012,MALE,555-624-5972,unknown@sample_email.com,42131,
+569471,Omar,Lopez,06 Aug 1999,male,(555) 953-2125,omar@sample_email.com,67912,PLN300
+117348,John,Davis,06/22/1992,Female,(555) 421-3160,john@sample_email.com,76310,PLN100
+660191,Tom,Khan,01 Jul 2001,male,555-689-8416,tom@sample_email.com,84251,
+783690,John,Davis,04/24/2010,Female,5559274574,john@sample_email.com,71789,
+604163,,Wang,14 Sep 1966,F,5558185043,unknown@sample_email.com,58701,PLN100
+680481,Tom,Brown,07/03/2051,MALE,5556861106,tom@sample_email.com,81976,
+"",Sara,Wang,02/28/2001,F,555-176-3541,sara@sample_email.com,14928,
+402599,Sara,Patel,18 Jul 1962,M,(555) 100-2853,sara@sample_email.com, 47078 ,PLN100
+229479,Alex,Johnson,18 Aug 2017,M,555-381-1375,alex@sample_email.com,16105,PLN100
+155270,Priya,Kim,20 Aug 1983,f,5556964756,priya@sample_email.com,20748,PLN100
+879520,Sara,Lopez,12 Jan 2030,M,5554366394,sara@sample_email.com,18497,
+572172,Nina,Garcia,2015-04-03,Female,555-851-5182,nina@sample_email.com,64333,PLN200
+481681,Alex,Khan,02 Aug 1974,f,5551962685,alex@sample_email.com,92677,PLN200
+125169,Priya,Lee,2039-01-24,male,555-560-5862,priya@sample_email.com,15136,PLN100
+669311,Omar,Brown,2049-11-21,MALE,5559711616,omar@sample_email.com,10500,PLN100
+897345,Priya,Patel,2009-07-19,male,5554284436,priya@sample_email.com,27604,PLN200
+533902,Maria,Singh,10/04/1996,M,555-626-6405,maria@sample_email.com, 50109 ,PLN200
+946345,John,Lee,16 Apr 2032,M,(555) 988-2100,john@sample_email.com,74640,
+234869,Jane,Das,05 Apr 2018,Female,555-529-3618,jane@sample_email.com,35054,PLN100
+865772,Jane,,18 Aug 1977,MALE,555-629-5648,jane@sample_email.com,78143,PLN200
+205318,Priya,Khan,03 Oct 2049,M,5551361371,priya@sample_email.com,95690,PLN300
+710715,Alex,Johnson,09/12/2003,MALE,5553713355,alex@sample_email.com,27023,
+372536,Tom,Garcia,03/30/2027,Female,(555) 270-6863,tom@sample_email.com,24608,
+613172,Carlos,Davis,12 Sep 2009,Female,(555) 906-3106,carlos@sample_email.com,89259,
+842829,Ravi,Davis,1971-08-02,Female,5558598973,ravi@sample_email.com,66572,
+819018,Carlos,Brown,02/17/2016,male,555-718-8072,carlos@sample_email.com,24323,PLN300
+,Wei,Garcia,05 Apr 2016,MALE,5551449148,wei@sample_email.com,98277,PLN100
+160525,Jane,Lee,11/30/1986,male,(555) 370-5392,jane@sample_email.com,22221,PLN300
+617139,Ravi,Smith,05/27/1992,male,555-319-9131,ravi@sample_email.com,42595,
+695388,Carlos,Singh,24 Apr 2044,MALE,(555) 416-2443,carlos@sample_email.com,95199,PLN100
+392580,,Brown,09/08/1968,male,(555) 991-9108,unknown@sample_email.com,47250,
+286468,Nina,,24 Sep 2022,f,(555) 853-6034,nina@sample_email.com,17080,
+425353,Jane,Das,2020-07-08,male,555-447-3513,jane@sample_email.com,31751,PLN300
+611301,Chris,,20 Jun 2039,F,(555) 604-3605,chris@sample_email.com,89890,PLN300
+823074,John,Lee,2047-01-25,MALE,5555657881,john@sample_email.com,37700,
+683517,Omar,Lopez,03/09/2051,M,555-523-7182,omar@sample_email.com,56519,PLN300
+352475,Ravi,,1984-06-28,MALE,5556963346,ravi@sample_email.com,28468,PLN200
+739290,,Johnson,27 Apr 2015,male,5555943043,unknown@sample_email.com,88183,PLN100
+833098,Nina,Lopez,30 Mar 2019,Female,5553442051,nina@sample_email.com,78088,PLN300
+696447,Chris,Das,1992-07-30,F,(555) 693-5735,chris@sample_email.com,43099,
+915949,Alex,Garcia,27 Nov 2008,M,(555) 686-1249,alex@sample_email.com,45051,
+694691,Carlos,Patel,1996-12-04,male,(555) 587-7092,carlos@sample_email.com,67745,PLN300
+743209,Maria,Garcia,2020-03-25,M,(555) 613-2080,maria@sample_email.com,57937,PLN100
+774001,Maria,Brown,13 Mar 2012,M,(555) 508-7364,maria@sample_email.com,40652,PLN300
+937659,Priya,Lopez,04/04/1973,M,(555) 664-6798,priya@sample_email.com,35484,
+629465,Tom,Singh,24 Jun 2003,F,555-132-8622,tom@sample_email.com,85809,
+939595,Linda,Singh,18 Apr 2016,male,(555) 763-4423,linda@sample_email.com,84345,PLN300
+118194,Jane,Brown,2024-10-23,F,5555006490,jane@sample_email.com,78256,
+553019,Priya,Johnson,2019-12-13,M,5555575575,priya@sample_email.com,38469,PLN100
+589784,John,Wang,2006-03-15,Female,555-120-9448,john@sample_email.com,90803,
+941402,John,Wang,09 Oct 2037,male,(555) 548-8025,john@sample_email.com,28695,PLN300
+573889,Ravi,Khan,05/02/2053,MALE,(555) 480-9595,ravi@sample_email.com, 70187 ,PLN200
+402856,John,Lee,1989-10-20,f,555-443-3071,john@sample_email.com,96479,PLN200
+127461,Linda,Lopez,07/16/2012,f,(555) 688-9919,linda@sample_email.com,83887,PLN200
+328367,Nina,Smith,1976-04-10,Female,(555) 662-3038,nina@sample_email.com,67424,PLN200
+930057,Carlos,Lee,03/06/2017,f,555-586-3775,carlos@sample_email.com,32194,PLN200
+607954,,Das,04/01/2018,F,(555) 393-6135,unknown@sample_email.com,84159,
+903846,,Garcia,26 Jun 2010,f,(555) 444-2362,unknown@sample_email.com,82511,PLN100
+288885,Alex,Kim,10/03/2008,male,5552134678,alex@sample_email.com,36635,PLN300
+711437,Chris,Davis,07/28/2045,male,5556157331,chris@sample_email.com, 93744 ,PLN100
+197897,Tom,Lee,12/14/2004,Female,5554758941,tom@sample_email.com,06649,
+,Wei,Lee,27 Feb 2010,MALE,5555038410,wei@sample_email.com,47583,PLN200
+908511,Chris,Brown,2017-02-09,Female,555-101-5656,chris@sample_email.com,13862,
+532788,Priya,Johnson,1968-04-14,MALE,(555) 738-3068,priya@sample_email.com,28964,
+209850,Chris,Lee,2000-04-17,F,555-290-4243,chris@sample_email.com,57525,PLN300
+728234,Jane,Johnson,08/29/2022,Female,5554146687,jane@sample_email.com,42254,PLN300
+573825,Chris,Khan,09/08/1997,MALE,5556437001,chris@sample_email.com,60143,PLN100
+105128,Linda,Garcia,2023-01-03,MALE,(555) 492-4118,linda@sample_email.com, 28686 ,
+157016,Ravi,Wang,14 Dec 1968,Female,(555) 859-2664,ravi@sample_email.com,35886,PLN200
+139074,Priya,,2005-01-14,Female,555-833-3442,priya@sample_email.com,02270,PLN200
+697333,Wei,Garcia,1980-02-23,Female,555-625-9095,wei@sample_email.com,20325,
+111305,John,Johnson,23 Dec 1993,MALE,555-293-4067,john@sample_email.com,55977,PLN100
+123456,Jane,,1990/14/05,F,555-999-1234,jane@sample_email.com, ,PLN200
+BADROW,THIS,ROW,HAS,TOO,MANY,this@sample_email.com,AND,EXTRA,STUFF,XYZ
+,NoID,User,02/30/1995,F,,noid@sample_email.com,94086,PLN300
+123456,Jane,,1990/14/05,F,555-999-1234,jane@sample_email.com, ,PLN200

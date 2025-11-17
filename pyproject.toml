@@ -1,0 +1,17 @@
+[tool.ruff]
+# Common settings for both linter and formatter
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+# Base rule set: pycodestyle (E), Pyflakes (F), isort (I)
+select = ["E", "F", "I"]
+
+# Ignore rules that are incompatible with the formatter.
+# E203: whitespace-before-punctuation
+ignore = ["E203", "F403", "F405"]
+
+[tool.ruff.format]
+# Mimic Black's formatting.
+quote-style = "double"
+line-ending = "auto"
